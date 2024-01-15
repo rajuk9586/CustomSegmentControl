@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  CustomSegmentController
 //
-//  Created by Anuj Kumar on 18/12/23.
+//  Created by Raju Kumar on 18/12/23.
 //
 
 import UIKit
@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var customSegmentControl2: CustomSegmentControl2!
     @IBOutlet weak var customSegmentControl3: CustomSegmentControl3!
     @IBOutlet weak var customSegmentControl4: CustomSegmentControl4!
-    @IBOutlet weak var customSegmentControl5: CustomSegmentControl5!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,10 +30,6 @@ class ViewController: UIViewController {
         customSegmentControl4.selectedSegmentIndex = 1
         customSegmentControl4.updateView()
         
-        // Set comma-separated text and image names
-                customSegmentControl5.commaSeparatedButtonTitles = "Home|image,Settings|image_1,Profile|image_2"
-
-        customSegmentControl5.updateView()
 //        for family in UIFont.familyNames {
 //            print("Font Family: \(family)")
 //            for name in UIFont.fontNames(forFamilyName: family) {
@@ -70,11 +65,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func SegmentedControl4ValueChanged(_ sender: CustomSegmentControl4) {
-        print(sender.selectedSegmentIndex)
-       
-    }
-    
-    @IBAction func SegmentedControl5ValueChanged(_ sender: CustomSegmentControl5) {
         print(sender.selectedSegmentIndex)
        
     }

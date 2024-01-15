@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CustomSegmentController
 //
-//  Created by Anuj Kumar on 18/12/23.
+//  Created by Raju Kumar on 18/12/23.
 //
 
 import UIKit
