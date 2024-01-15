@@ -65,7 +65,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func SegmentedControl4ValueChanged(_ sender: CustomSegmentControl4) {
-        print(sender.selectedSegmentIndex)
+        print(sender.selectedSegmentIndex.description)
        
     }
     
